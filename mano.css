@@ -1739,7 +1739,6 @@ overflow:hidden;
 }
 /*--[badges and accessories]--*/
 
-/***CHAT BADGES***/
 /**Mariuha123**/
 #chat-messages .id-14034574 .badge-box i.bdg {
   background-image: url('https://i.imgur.com/6pNWnEP.png') !important;
@@ -1753,18 +1752,18 @@ overflow:hidden;
  }
 /**Delights**/
 #chat-messages .id-10762013 .badge-box i.bdg {
-  background-image: url('https://i.imgur.com/82MVS5u.jpg') !important;
+  background-image: url('https://i.imgur.com/3dXcNuq.gif') !important;
    background-size: cover;
  }
-/**NERA**/
-#chat-messages .id-10769513 .badge-box i.bdg {
-  background-image: url('https://i.imgur.com/MFO7ZLD.gif') !important;
+/**Issitaskes**/
+#chat-messages .id-3862040 .badge-box i.bdg {
+  background-image: url('https://i.imgur.com/BLGFgAr.gif') !important;
   background-size: cover;
 background-position: center;
  }
- /**NERA**/
-#chat-messages .id-14034874 .badge-box i.bdg {
-    background-image: url('https://i.imgur.com/6pNWnEP.png') !important;
+ /**girlnextdoor-**/
+#chat-messages .id-3646233 .badge-box i.bdg {
+    background-image: url('https://i.imgur.com/0AbctHF.gif') !important;
     background-size: cover;
  }
   /**NERA**/

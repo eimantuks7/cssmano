@@ -1,4 +1,4 @@
-/* Original CSS by WiBla */
+/* Original CSS by Delights */
 /* Edit by Delights */
 /* keyframes */
 
@@ -8,6 +8,288 @@
 }
 
 /*--[PLUG]--*/
+
+
+/* Icones do PLUG.DJ Modificados */
+.icon {
+    background-image: url("https://i.imgur.com/lgBZYGQ.png");
+  }
+  
+  /* Ocultar rolagem do Plug */
+  #app {
+      overflow-y: hidden;
+  }
+  
+  /* Setar o cursor como pointer em alguns elementos */
+  .social-menu .icon {
+      cursor: pointer;
+  }
+  
+  /*--------------------------------------------------------------------------------\
+  |   Efeito transparencia grupo de botões
+  \--------------------------------------------------------------------------------*/
+  
+  .buttons:hover > .button,
+  #user-menu:hover > .item,
+  .list:hover > .item, .list:hover > a .item,
+  #header-panel-bar:hover > .header-panel-button {
+    opacity: .3;
+    transition: all .5s ease-out;
+  }
+  
+  #user-menu .item:hover,
+  #footer-user .button:hover,
+  .list .item:hover, .list a .item:hover,
+  #header-panel-bar .header-panel-button:hover {
+    opacity: 1;
+  } 
+  
+  /*---------------------------------------------------------------------------------\
+  |   Chat - Configurações
+  \---------------------------------------------------------------------------------*/
+  
+  /* Ajuste botões excluir e ocultar mensagem */
+  #chat .delete-button,
+  .radiantimg-delete,
+  .rcs-delete {
+    border-radius: 10px;
+    padding: 8px 10px !important;
+  }
+  
+  /* Ajustes Botões TOPO */
+  #rcs-appright-button { left:  286px !important; }
+  #waitlist-button     { width: 101px !important; }
+  #rs-skip-button      { right: 54px  !important; }
+  
+  /* Espaçamento maior texto chat
+  #chat-messages .text {
+    line-height: 1.5;
+  }*/
+  
+  /* Input text */
+  #chat-input {
+      background: rgba(255, 255, 255, 0.10);
+      box-shadow: inset 0 0 3px rgba(255, 255, 255, 0.20);
+      -webkit-box-shadow: inset 0 0 3px rgba(255, 255, 255, 0.20);
+  }
+  
+  #chat-input.focused {
+      -webkit-box-shadow: 0 0 0 1px #d61717 !important;
+              box-shadow: 0 0 0 1px #d61717 !important;
+  }
+  
+  .focused {
+      background: rgba(0, 0, 0, 0.75);
+      box-shadow: 0 0 3px rgb(66, 165, 220);
+      -webkit-box-shadow: 0 0 3px rgb(66, 165, 220);
+  }
+  
+  /* Is you */
+  #chat .from.you .un {
+      color: #d61717;
+  }
+  
+  /* Itens da lista de espera */
+  #waitlist .list.manager .user .meta {
+      border-bottom: 1px solid rgba(148, 103, 33, .3);
+  }
+  
+  /*---------------------------------------------------------------------------------\
+  |   Emojis / Emotes - Configurações
+  \---------------------------------------------------------------------------------*/
+  
+   /* Emotes radiant altura máxima */
+  .radiantemote {
+      max-height: 150px !important;
+  }
+  
+  /* Emojis maiores 
+  #chat span.emoji-sizer {
+    width: 25px !important;
+    height: 25px !important;
+  }*/
+  
+  /*---------------------------------------------------------------------------------\
+  |   Tool-tips
+  \---------------------------------------------------------------------------------*/
+  
+  #tooltip span,
+  #toast-notifications .notification .right,
+  #toast-notifications .notification .left {
+      background: rgba(214, 23, 23, 0.8) !important;
+      border-radius: 25px;
+    text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  }
+  
+  #tooltip .corner {
+    border-left-color: rgba(214, 23, 23, 0.8) !important;
+    border-top-color: rgba(214, 23, 23, 0.8) !important;
+  }
+  
+  #tooltip.right .corner {
+    border-right-color: rgba(214, 23, 23, 0.8) !important;
+    border-top-color: rgba(214, 23, 23, 0.8) !important;
+    border-bottom: 10px solid transparent !important;
+    border-left: 10px solid transparent !important;
+  }
+  
+  /* Notificações Fix-it */
+  #toast-notifications .notification {
+    background: #222;
+  }
+  
+  #toast-notifications .notification .right,
+  #toast-notifications .notification .left {
+    border-radius: 0 !important;
+    background: transparent !important;
+  }
+  
+  /*---------------------------------------------------------------------------------\
+  |   Header And Footer
+  \---------------------------------------------------------------------------------*/
+  
+   .app-header {
+      background: linear-gradient(0deg, rgba(0,0,0,.8), rgba(0,0,0,.3));
+      background: -webkit-gradient(linear, left bottom, left top, from(rgba(0,0,0,.8)), to(rgba(0,0,0,.3)));
+      background: -webkit-linear-gradient(bottom, rgba(0,0,0,.8), rgba(0,0,0,.3));
+      background: -o-linear-gradient(bottom, rgba(0,0,0,.8), rgba(0,0,0,.3));
+      -webkit-box-shadow: inset 0 2px 0 -1px rgba(0,0,0,.3);
+              box-shadow: inset 0 2px 0 -1px rgba(0,0,0,.3);
+  }
+  
+  #footer {
+      background: -webkit-linear-gradient(top, rgba(0,0,0,.8), rgba(0,0,0,.3));
+      background: -o-linear-gradient(top, rgba(0,0,0,.8), rgba(0,0,0,.3));
+      background: linear-gradient(180deg, rgba(0,0,0,.8), rgba(0,0,0,.3));
+      -webkit-box-shadow: inset 0 2px 0 -1px rgba(0,0,0,.3);
+              box-shadow: inset 0 2px 0 -1px rgba(0,0,0,.3);
+  }
+  
+  #footer-user .buttons {
+      background: -webkit-linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.3));
+      background: -o-linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.3));
+      background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.3));
+  }
+  
+  /*---------------------------------------------------------------------------------\
+  |   Título da sala
+  \---------------------------------------------------------------------------------*/
+  
+  
+  /*---------------------------------------------------------------------------------\
+  |   Usuário Configurações Gerais
+  \---------------------------------------------------------------------------------*/
+  
+   .experience .xp .next-level,
+  #user-settings .container .item span {
+    color: #fff;
+  }
+  
+  .user-content .header span {
+    color: #ccc;
+  }
+  
+  #user-inventory .history .legend,
+  .user-content.profile .meta .link .label,
+  #user-settings .container .cap .title {
+    color: #cecece;
+  }
+  
+  #user-settings .container .cap .value {
+    font-weight: bold;
+  }
+  
+  .user-content.profile .points .label {
+    border-radius: 5px;
+      background: rgba(0,0,0,.5);
+      padding: 3px 10px;
+      color: #cecece;
+      border: 2px solid #d61717;
+      margin-top: 3px;
+  }
+  
+  #app-menu .list .item {
+    -webkit-box-shadow: inset 0 -1px 0 0 rgba(255,255,255,.1);
+        box-shadow: inset 0 -1px 0 0 rgba(255,255,255,.1);
+  }
+  
+  /*---------------------------------------------------------------------------------\
+  |   Configurações COMUNIDADE
+  \---------------------------------------------------------------------------------*/
+  
+  /* Título */
+   #room-settings-menu .title {
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  /*---------------------------------------------------------------------------------\
+  |   Preview USUARIO
+  \---------------------------------------------------------------------------------*/
+  
+  #user-rollover .info    { background: rgba(0,0,0,.5); }
+  #user-rollover          { background: rgba(0,0,0,.8); }
+  
+  #user-rollover .arrow-down,
+  #user-rollover.expand .arrow-down,
+  #user-rollover.expand.self.can-skip .arrow-down {
+      border-top: 8px solid rgba(0,0,0,.8);
+  }
+  
+  #user-rollover .meta .joined {
+      color: #fff;
+  }
+  
+   #user-rollover .meta .showID {
+      color: #ccc !important;
+   }
+  
+  /*---------------------------------------------------------------------------------\
+  |   Barra de rolagem
+  \---------------------------------------------------------------------------------*/
+  
+   #app {
+    width: 100vw !important;
+    height: 100vh !important;
+  }
+  
+  body::-webkit-scrollbar {
+    width: 0px !important;
+  }
+  
+  #chat-messages::-webkit-scrollbar-thumb,
+  .jspDrag { border-radius: 100px; }
+  
+  /*---------------------------------------------------------------------------------\
+  |   APP MENU - Ajuste imagens mobile badges
+  \---------------------------------------------------------------------------------*/
+  
+  #app-menu .appbadges {
+    padding-top: 5px;
+  } #app-menu .android-badge,
+    #app-menu .iphone-badge {
+    width: 121px;
+    height: 35px;
+    background-size: 121px 35px;
+  } #app-menu .android-badge {
+    margin-top: 0;
+  }
+  
+  /*---------------------------------------------------------------------------------\
+  |   Cantos arredondados
+  \---------------------------------------------------------------------------------*/
+  
+   /* Menu do topo usuarios */
+  .tab-menu button:first-child { border-radius: 100px 0 0 100px; }
+  .tab-menu button:last-child { border-radius: 0 100px 100px 0; }
+  
+  /* Botão Alternar ON OFF */
+  #room-settings .general-settings .option button.off {
+      border-radius: 100px 0 0 100px;
+  } #room-settings .general-settings .option button.on {
+      border-radius: 0 100px 100px 0;
+  }
+  
 
 #room-settings a:hover, #chat a:hover {
 	color: hsl(200,100%,55%) !important;
@@ -1345,7 +1627,7 @@ overflow:hidden;
 /*#####[HOST]#####*/
 
 .icon-chat-host {
-	background: url(https://i.imgur.com/Hm8kCDL.png);
+	background: url(http://icons.iconarchive.com/icons/ariil/alphabet/16/Letter-H-icon.png);
 	background-position: center !important;
 }
 .icon-chat-host + span,
@@ -1362,7 +1644,7 @@ overflow:hidden;
 /*#####[CO-HOSTS]#####*/
 
 .icon-chat-cohost {
-	background: url(https://i.imgur.com/Hm8kCDL.png);
+	background: url(http://icons.iconarchive.com/icons/iconarchive/red-orb-alphabet/16/Letter-C-icon.png);
 	background-position: center !important;
 }
 .icon-chat-cohost + span,
@@ -1373,7 +1655,7 @@ overflow:hidden;
 /*#####[MANAGER]#####*/
 
 .icon-chat-manager {
-	background: url(https://i.imgur.com/SCkLxHj.png);
+	background: url(http://icons.iconarchive.com/icons/iconarchive/red-orb-alphabet/16/Letter-M-icon.png);
 	background-position: center !important;
 }
 .icon-chat-manager + span,
@@ -1389,7 +1671,7 @@ overflow:hidden;
 /*#####[BOUNCER]#####*/
 
 .icon-chat-bouncer {
-	background: url(https://i.imgur.com/YUKVqO2.png);
+	background: url(http://icons.iconarchive.com/icons/iconarchive/red-orb-alphabet/16/Letter-B-icon.png);
 	background-position: center !important;
 }
 .icon-chat-bouncer + span,
@@ -1405,7 +1687,7 @@ overflow:hidden;
 /*#####[DJ]#####*/
 
 .icon-chat-dj {
-	background: url(https://i.imgur.com/axKg19I.png);
+	background: url(https://cdn.radiant.dj/rcs/icons/radiant/residentdj.png);
 	background-position: center !important;
 }
 .icon-chat-dj + span,
@@ -1422,12 +1704,12 @@ overflow:hidden;
 
 .icon-chat-subscriber,
 #user-rollover .meta.subscriber .status i {
-	background: url(https://i.imgur.com/zIbImv1.png);
+	background: url(http://i.imgur.com/gYyGQel.png);
 	background-position: center !important;
 }
 .icon-chat-silver-subscriber,
 #user-rollover .meta.subscriber.silver .status i {
-	background: url(https://i.imgur.com/AHDikC9.png);
+	background: url(http://i.imgur.com/nFbwvVJ.png);
 	background-position: center !important;
 }
 .icon-chat-subscriber + span {
@@ -1737,60 +2019,297 @@ overflow:hidden;
 #user-lists .list.ignored .user .unignore {
     color: #3C5;
 }
-/*--[badges and accessories]--*/
 
-/**Mariuha123**/
-#chat-messages .id-14034574 .badge-box i.bdg {
-  background-image: url('https://i.imgur.com/6pNWnEP.png') !important;
-  background-size: cover;
+/*-------------------------------------------------------------------------------/
+                            TITULOS ESPECIAIS
+-------------------------------------------------------------------------------*/
+
+/* BOSS
+-------------------------------------------------------------------------------*/
+#user-lists .list .user.id-6310947 .name:after,
+#user-rollover.id-6310947 .meta .username:after,
+#chat [data-cid^='6310947-'] .un:after {
+    content: "BOSS";
+    margin-left: 5px;
+    background: rgba(0,0,0,.3);
+    padding: 0px 5px;
+    border: 1px solid rgba(206,10,10,.5);
+    border-radius: 5px;
+    color: #ce0a0a;
+    font-size: 10px;
 }
-/**Botas**/
-#chat-messages .id-29698377 .badge-box i.bdg {
-  background-image: url('https://gif-avatars.com/img/45x45/cat-hype.gif') !important;
-   background-size: cover;
-   background-position: center;
- }
-/**Delights**/
-#chat-messages .id-10762013 .badge-box i.bdg {
-  background-image: url('https://gif-avatars.com/img/45x45/better.gif') !important;
-   background-size: cover;
- }
-/**Issitaskes**/
-#chat-messages .id-3862040 .badge-box i.bdg {
-  background-image: url('https://gif-avatars.com/img/90x90/hollywoodyasin-bsk.gif') !important;
-  background-size: cover;
-background-position: center;
- }
- /**girlnextdoor-**/
-#chat-messages .id-3646233 .badge-box i.bdg {
-    background-image: url('https://i.imgur.com/0AbctHF.gif') !important;
+
+/*===================================== BORDA DO USUARIO */
+#user-rollover.id-6310947 .meta .thumb {
+    border-color: rgba(206,10,10,.8) !important;
+}
+
+/* SISTEMA
+-------------------------------------------------------------------------------
+#user-lists .list .user.id-29698377 .name:after,
+#user-rollover.id-29698377 .meta .username:after,
+#chat [data-cid^='29698377-'] .un:after {
+    content: "SISTEMA";
+    margin-left: 5px;
+    background: rgba(0,0,0,.3);
+    padding: 0px 5px;
+    border: 1px solid rgba(172, 118, 255,.3);
+    border-radius: 5px;
+    color: #ac76ff;
+    font-size: 10px;
+}
+
+#chat [data-cid^='29698377-'] {
+        background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, .3)), to(transparent));
+        background: linear-gradient(to right, rgba(255, 255, 255, .3), transparent);
+        -webkit-box-shadow: inset 0 -1px 0 rgba(255,255,255,.3);
+                box-shadow: inset 0 -1px 0 rgba(255,255,255,.3);
+        padding: 3px 0;
+}*/
+
+/* Developer
+-------------------------------------------------------------------------------*/
+
+
+/* Delights */
+#user-lists .list .user.id-10762013 .name:after,
+#user-rollover.id-10762013 .meta .username:after,
+#chat [data-cid^='10762013-'] .un:after {
+    content: "DEV";
+    margin-left: 5px;
+    background: rgba(0,0,0,.3);
+    padding: 0px 5px;
+    border: 1px solid rgba(66,165,220,.5);
+    border-radius: 5px;
+    color: #4e9920;
+    font-size: 10px;
+}
+
+/*===================================== BORDA DO USUARIO */
+#user-rollover.id-10762013 .meta .thumb {
+    border-color: #4e9920 !important;
+}
+
+/* HELP
+-------------------------------------------------------------------------------*/
+
+/* girlnextdoor- */
+#user-lists .list .user.id-3646233 .name:after,
+#user-rollover.id-3646233 .meta .username:after,
+#chat [data-cid^='3646233-'] .un:after {
+    content: "HELP";
+    margin-left: 5px;
+    background: rgba(0,0,0,.3);
+    padding: 0px 5px;
+    border: 1px solid rgba(197, 152, 64, .5);
+    border-radius: 5px;
+    color: #c59840;
+    font-size: 10px;
+}
+
+/* VIP BLACK (NERA)
+-------------------------------------------------------------------------------*/
+
+#user-lists .list .user.id-00000 .name:after,
+#user-rollover.id-00000 .meta .username:after,
+#chat [data-cid^='00000-'] .un:after {
+    content: "VIP";
+    margin-left: 5px;
+    background: -webkit-linear-gradient(rgba(255, 255, 255, 0.3), transparent);
+    background: -o-linear-gradient(rgba(255, 255, 255, 0.3), transparent);
+    background: linear-gradient(rgba(255, 255, 255, 0.3), transparent);
+    padding: 0px 5px;
+    box-shadow: inset 0 0 1px rgba(255,255,255,0.5);
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 10px;
+}
+
+/* VIP Promoter
+-------------------------------------------------------------------------------*/
+
+/* Lukasenka */
+#user-lists .list .user.id-4049810 .name:after,
+#user-rollover.id-4049810 .meta .username:after,
+#chat [data-cid^='4049810-'] .un:after {
+    content: "VIP";
+    margin-left: 5px;
+    background: rgba(0,0,0,.3);
+    padding: 0px 5px;
+    border: 1px solid rgba(54, 255, 225, 0.5);
+    border-radius: 5px;
+    color: #1abc9c;
+    font-size: 10px;
+}
+
+/*===================================== BORDA DO USUARIO */
+/* ღSkateboardϟ */
+#user-rollover.id-4049810 .meta .thumb {
+    border-color: rgba(54, 255, 225, 0.5) !important;
+}
+
+/* VIP PINK (NERA)
+-------------------------------------------------------------------------------*/
+
+/* Bela Adormecida */
+#user-lists .list .user.id-00000 .name:after,
+#user-rollover.id-00000 .meta .username:after,
+#chat [data-cid^='00000-'] .un:after {
+    content: "VIP";
+    margin-left: 5px;
+    background: rgba(0,0,0,.3);
+    padding: 0px 5px;
+    border: 1px solid rgba(255, 54, 210,.5);
+    border-radius: 5px;
+    color: #ff36d2;
+    font-size: 10px;
+}
+
+/*===================================== BORDA DO USUARIO */
+/* Bicabornato de ódio */
+#user-rollover.id-00000 .meta .thumb,
+
+/* Bela Adormecida */
+#user-rollover.id-00000 .meta .thumb {
+    border-color: rgba(255, 54, 210,.75) !important;
+}
+
+/*-------------------------------------------------------------------------------/
+                            AVATARES ESPECIAS
+-------------------------------------------------------------------------------*/
+
+/* Delights */
+[data-cid^="20574971-"] .badge-box .bdg,
+#user-rollover.id-20574971 .badge-box .bdg {
+    border-radius: 5px;
     background-size: cover;
- }
-  /**Mikis_Drg**/
-#chat-messages .id-45810969 .badge-box i.bdg {
-    background-image: url('https://i.imgur.com/4oppC4v.gif') !important;
-    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    background-image: url("https://gif-avatars.com/img/90x90/rubin-roxy.gif");
 }
-.id-3680307 .meta .username:after {
-		content: "\A" url('https://vgy.me/98k8pD.png') "Host";
-		white-space: pre;
-		font-size: 10pt;
-		display: block;
-		margin-top: 50px;
-		color: #0000FF;
-		font-weight: bold;
-		cursor: text;
+
+/* girlnextdoor- */
+[data-cid^="26672536-"] .badge-box .bdg,
+#user-rollover.id-26672536 .badge-box .bdg {
+    border-radius: 5px;
+    background-size: 30px;
+    background-repeat: round;
+    background-image: url("https://i.imgur.com/RfyZnku.gif");
 }
-[data-cid^="3680307-"] .msg .from .un {
-		position: relative;
-		left: -1px;
-		padding-left: 18px;
-		background-image: url('https://vgy.me/bSEc6J.gif');
-		background-repeat: no-repeat;
-		background-position: -1px center;
-		background-size: 16px auto;
+
+/* NERA**** */
+[data-cid^="00000-"] .badge-box .bdg,
+#user-rollover.id-00000 .badge-box .bdg {
+    border-radius: 5px;
+    background-size: 30px;
+    background-repeat: round;
+    background-image: url("https://media.tenor.com/images/6a7468a79cdd9ebc4ba952e3b5092616/tenor.gif");
 }
-#chat [data-cid^="3680307-"] .bdg {
-		background: url('https://vgy.me/AWNM7U.gif') !important;
-		background-position: 0px 0px;
+
+/* NERA */
+[data-cid^="00000-"] .badge-box .bdg,
+#user-rollover.id-00000 .badge-box .bdg {
+    border-radius: 5px;
+    background-size: 30px;
+    background-repeat: round;
+    background-image: url("https://media.discordapp.net/attachments/368592928723042304/368593609739730944/WhatsApp_Image_2017-08-06_at_6.40.50_PM.jpeg");
+}
+
+/* BOT */
+[data-cid^="29698377-"] .badge-box .bdg,
+#user-rollover.id-19129619 .badge-box .bdg {
+    border-radius: 5px;
+    background-size: 30px;
+    background-repeat: round;
+    background-image: url("https://cs.pikabu.ru/images/big_size_comm/2013-05_5/13695032528619.gif");
+}
+
+.icon-chat-dj {
+    background: url(https://i.imgur.com/y8HQeY8.png) !important;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+#user-rollover.is-staff.id-29698377 .info .role span {
+    display: none;
+}
+
+#user-rollover.id-29698377 .level:after {
+    position: absolute;
+    content: url('http://i.imgur.com/xa4FR0w.png');
+    left: 170px;
+    top: 3px;
+}
+
+#user-rollover.id-29698377 .info .badge-box:after {
+    content: "SISTEMA";
+    position: absolute;
+    top: 6px;
+    left: 228px;
+    color: #ac76ff;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+#user-rollover.id-29698377 .info .role i {
+  display: none;
+}
+
+/* BOT */
+#chat-messages [data-cid^="29698377-"] .timestamp,
+#chat [data-cid^="29698377-"].emote .timestamp {
+    color: #ac76ff !important;
+}
+
+#user-lists .list .user.id-29698377 .name:after,
+#user-rollover.id-29698377 .meta .username:after,
+#chat [data-cid^='29698377-'] .un:after {
+    content: "BOT";
+    margin-left: 5px;
+    background: rgba(0,0,0,.3);
+    padding: 0px 5px;
+    border: 1px solid rgba(172, 118, 255,.3);
+    border-radius: 5px;
+    color: #ac76ff;
+    font-size: 10px;
+}
+
+#chat [data-cid^="29698377-"].message .timestamp {
+    color: #ac76ff !important;
+}
+
+#chat [data-cid^="29698377-"] .icon,
+#chat .id-19129619 .icon {
+    display: none !important;
+}
+
+#user-rollover.id-29698377 .username,
+#user-lists .list .user.id-29698377 .name,
+#user-rollover.id-29698377 .username,
+#chat [data-cid^='29698377-'] .un {
+    color: #ac76ff !important;
+}
+
+#chat-messages [data-cid^="29698377-"] .text {
+    font-weight: bold;
+}
+
+#chat-messages [data-cid^="29698377-"] .msg {
+    font-weight: bold;
+}
+
+#chat [data-cid^='29698377-'] {
+  background: transparent;
+  box-shadow: inset 0 1.5px 0 rgba(172, 118, 255,.3), inset 0 -1.5px 0 rgba(172, 118, 255,.3);
+}
+
+#chat [data-cid^='29698377-'] .from {
+  background: linear-gradient(to right, rgba(172, 118, 255,.3), transparent);
+  padding: 3px 0 3px 10px;
+  border-radius: 10px 0 0 10px;
 }

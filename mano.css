@@ -2024,21 +2024,6 @@ overflow:hidden;
                             TITULOS ESPECIAIS
 -------------------------------------------------------------------------------*/
 
-/* BOSS
--------------------------------------------------------------------------------*/
-#user-lists .list .user.id-6310947 .name:after,
-#user-rollover.id-6310947 .meta .username:after,
-#chat [data-cid^='6310947-'] .un:after {
-    content: "BOSS";
-    margin-left: 5px;
-    background: rgba(0,0,0,.3);
-    padding: 0px 5px;
-    border: 1px solid rgba(206,10,10,.5);
-    border-radius: 5px;
-    color: #ce0a0a;
-    font-size: 10px;
-}
-
 /*===================================== BORDA DO USUARIO */
 #user-rollover.id-6310947 .meta .thumb {
     border-color: rgba(206,10,10,.8) !important;

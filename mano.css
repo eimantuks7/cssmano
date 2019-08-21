@@ -1992,11 +1992,6 @@ overflow:hidden;
 #user-inventory .history .row .col {box-shadow: -1px 0 0 0 hsl(210,50%,20%) !important;}
 #user-inventory .history .jspPane .row {border-color: hsl(210,50%,20%); !important}
 
-/*remove link rcs*/
-#room-settings .general-settings .description .value a:last-of-type {
-	display:none !important;
-}
-
 /* Bans & mute panel */
 #user-lists .list.bans .user .label,
 #user-lists .list.mutes .user .label {

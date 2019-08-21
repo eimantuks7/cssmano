@@ -26,7 +26,7 @@
   }
   
   /*--------------------------------------------------------------------------------\
-  |   Efeito transparencia grupo de botões
+  |   Efeito transparencia grupo de botões by Delights
   \--------------------------------------------------------------------------------*/
   
   .buttons:hover > .button,
@@ -45,7 +45,7 @@
   } 
   
   /*---------------------------------------------------------------------------------\
-  |   Chat - Configurações
+  |   Chat - Configurações by Delights
   \---------------------------------------------------------------------------------*/
   
   /* Ajuste botões excluir e ocultar mensagem */
@@ -95,7 +95,7 @@
   }
   
   /*---------------------------------------------------------------------------------\
-  |   Emojis / Emotes - Configurações
+  |   Emojis / Emotes - Configurações by Delights
   \---------------------------------------------------------------------------------*/
   
    /* Emotes radiant altura máxima */
@@ -110,7 +110,7 @@
   }*/
   
   /*---------------------------------------------------------------------------------\
-  |   Tool-tips
+  |   Tool-tips by Delights
   \---------------------------------------------------------------------------------*/
   
   #tooltip span,
@@ -145,7 +145,7 @@
   }
   
   /*---------------------------------------------------------------------------------\
-  |   Header And Footer
+  |   Header And Footer by Delights
   \---------------------------------------------------------------------------------*/
   
    .app-header {
@@ -172,12 +172,12 @@
   }
   
   /*---------------------------------------------------------------------------------\
-  |   Título da sala
+  |   Título da sala by Delights
   \---------------------------------------------------------------------------------*/
   
   
   /*---------------------------------------------------------------------------------\
-  |   Usuário Configurações Gerais
+  |   Usuário Configurações Gerais by Delights
   \---------------------------------------------------------------------------------*/
   
    .experience .xp .next-level,
@@ -214,7 +214,7 @@
   }
   
   /*---------------------------------------------------------------------------------\
-  |   Configurações COMUNIDADE
+  |   Configurações COMUNIDADE by Delights
   \---------------------------------------------------------------------------------*/
   
   /* Título */
@@ -224,7 +224,7 @@
   }
   
   /*---------------------------------------------------------------------------------\
-  |   Preview USUARIO
+  |   Preview USUARIO by Delights
   \---------------------------------------------------------------------------------*/
   
   #user-rollover .info    { background: rgba(0,0,0,.5); }
@@ -245,7 +245,7 @@
    }
   
   /*---------------------------------------------------------------------------------\
-  |   Barra de rolagem
+  |   Barra de rolagem by Delights
   \---------------------------------------------------------------------------------*/
   
    #app {
@@ -261,7 +261,7 @@
   .jspDrag { border-radius: 100px; }
   
   /*---------------------------------------------------------------------------------\
-  |   APP MENU - Ajuste imagens mobile badges
+  |   APP MENU - Ajuste imagens mobile badges by Delights
   \---------------------------------------------------------------------------------*/
   
   #app-menu .appbadges {
@@ -276,7 +276,7 @@
   }
   
   /*---------------------------------------------------------------------------------\
-  |   Cantos arredondados
+  |   Cantos arredondados by Delights
   \---------------------------------------------------------------------------------*/
   
    /* Menu do topo usuarios */
@@ -1421,7 +1421,7 @@ overflow:hidden;
 	box-shadow: inset 0 0 50px #000 !important;
 }
 
-/*--[playlists]--*/
+/*--[playlists by Delights]--*/
 
 #media-panel #playlist-activate-button {
 	background: linear-gradient(hsl(260,50%,40%), hsl(260,40%,30%));
@@ -1528,7 +1528,7 @@ overflow:hidden;
 	border: none !important;
 }
 
-/*########## [chat] ##########*/
+/*########## [chat by Delights] ##########*/
 
 #chat-header {
 	background: rgba(30,35,40,.7);
@@ -1581,7 +1581,7 @@ overflow:hidden;
 	color: #EEE !important;
 }
 
-/*### [message] ###*/
+/*### [message by Delights] ###*/
 
 #chat .cm {
 	animation: fadein .2s;
@@ -1612,7 +1612,7 @@ overflow:hidden;
 	color: #000;
 }
 
-/*#####[YOU]#####*/
+/*#####[YOU by Delights]#####*/
 
 /*#chat .cm .msg .from.you .un {
 	color: #0bf !important;
@@ -1624,7 +1624,7 @@ overflow:hidden;
 	color: #9C0 !important;
 }
 
-/*#####[HOST]#####*/
+/*#####[HOST by Delights]#####*/
 
 .icon-chat-host {
 	background: url(http://icons.iconarchive.com/icons/ariil/alphabet/16/Letter-H-icon.png);
@@ -1641,7 +1641,7 @@ overflow:hidden;
 	top: 1px;
 }
 
-/*#####[CO-HOSTS]#####*/
+/*#####[CO-HOSTS by Delights]#####*/
 
 .icon-chat-cohost {
 	background: url(http://icons.iconarchive.com/icons/iconarchive/red-orb-alphabet/16/Letter-C-icon.png);
@@ -1652,7 +1652,7 @@ overflow:hidden;
 	color: #ffd700 !important;
 }
 
-/*#####[MANAGER]#####*/
+/*#####[MANAGER by Delights]#####*/
 
 .icon-chat-manager {
 	background: url(http://icons.iconarchive.com/icons/iconarchive/red-orb-alphabet/16/Letter-M-icon.png);
@@ -1668,7 +1668,7 @@ overflow:hidden;
 	background: linear-gradient(to right, hsla(140, 100%, 30%, 0.3), hsla(140, 100%, 40%, 0.3)) !important;
 }
 
-/*#####[BOUNCER]#####*/
+/*#####[BOUNCER by Delights]#####*/
 
 .icon-chat-bouncer {
 	background: url(http://icons.iconarchive.com/icons/iconarchive/red-orb-alphabet/16/Letter-B-icon.png);
@@ -1684,7 +1684,7 @@ overflow:hidden;
 	background: linear-gradient(to right, hsla(0,100%,20%,.5), hsla(0,100%,30%,.5)) !important;
 }
 
-/*#####[DJ]#####*/
+/*#####[DJ by Delights]#####*/
 
 .icon-chat-dj {
 	background: url(https://cdn.radiant.dj/rcs/icons/radiant/residentdj.png);
@@ -1700,7 +1700,7 @@ overflow:hidden;
 	background: linear-gradient(to right, hsla(217, 100%, 40%, 0.5), hsla(217, 100%, 50%, 0.5)) !important;
 }
 
-/*#####[SUBS]#####*/
+/*#####[SUBS by Delights]#####*/
 
 .icon-chat-subscriber,
 #user-rollover .meta.subscriber .status i {
@@ -1743,7 +1743,7 @@ overflow:hidden;
 	border: none !important;
 }
 
-/*--[welcome & log]--*/
+/*--[welcome & log by Delights]--*/
 
 #chat .cm.welcome {
 	color: hsl(210,80%,60%);
@@ -1757,7 +1757,7 @@ overflow:hidden;
 .cm strong {color: #fff !important;}
 .cm em {color: #999 !important;}
 
-/*--[moderation]--*/
+/*--[moderation by Delights]--*/
 
 #chat .cm.moderation {
 	background: linear-gradient(hsla(260,50%,25%,.8), hsla(260,50%,15%,.8)),
@@ -1769,7 +1769,7 @@ overflow:hidden;
 	color: hsl(260,70%,70%);
 }
 
-/*--[user-action]--*/
+/*--[user-action by Delights]--*/
 
 #chat .cm.user-action {
 	background: linear-gradient(hsla(60,100%,20%,.8), hsla(60,100%,10%,.8)),
@@ -1780,7 +1780,7 @@ overflow:hidden;
 	color: hsl(60,90%,70%) !important;
 }
 
-/*--[MENTION]--*/
+/*--[MENTION by Delights]--*/
 
 #chat .cm.mention {
 	background: linear-gradient(hsla(77,100%,20%,.8), hsla(77,100%,11%,.8)),
@@ -1849,7 +1849,7 @@ overflow:hidden;
 	background: none !important;
 }
 
-/*--[BOT]--*/
+/*--[BOT by Delights]--*/
 
 #chat .cm.emote {
 	background: linear-gradient(hsla(219,100%,20%,.8), hsla(219,100%,10%,.8)),
@@ -1869,7 +1869,7 @@ overflow:hidden;
 	font-style: normal;
 }
 
-/*--[RCS]--*/
+/*--[RCS by Delights]--*/
 
 .votes-rs {
     background-color: rgba(0, 0, 0, 0.50) !important;
@@ -1909,7 +1909,7 @@ overflow:hidden;
 	color: hsl(200,60%,50%) !important;
 }
 
-/*--[Miscellanous]--*/
+/*--[Miscellanous by Delights]--*/
 
 #app-menu .button, #room .friends.has-requests .header {
 	background: linear-gradient(to right, hsl(215,100%,30%), hsl(215,100%,20%));
@@ -2016,7 +2016,7 @@ overflow:hidden;
 }
 
 /*-------------------------------------------------------------------------------/
-                            TITULOS ESPECIAIS
+                            TITULOS ESPECIAIS by Delights
 -------------------------------------------------------------------------------*/
 
 /*===================================== BORDA DO USUARIO */
@@ -2155,7 +2155,7 @@ overflow:hidden;
 }
 
 /*-------------------------------------------------------------------------------/
-                            AVATARES ESPECIAS
+                            AVATARES ESPECIAS by Delights
 -------------------------------------------------------------------------------*/
 
 /* Delights */

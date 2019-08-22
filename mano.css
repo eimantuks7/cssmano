@@ -2055,7 +2055,7 @@ overflow:hidden;
 #user-lists .list .user.id-10762013 .name:after,
 #user-rollover.id-10762013 .meta .username:after,
 #chat [data-cid^='10762013-'] .un:after {
-    content: "DEV";
+    content: "BOSS";
     margin-left: 5px;
     background: rgba(0,0,0,.3);
     padding: 0px 5px;
@@ -2112,7 +2112,7 @@ overflow:hidden;
 #user-lists .list .user.id-4049810 .name:after,
 #user-rollover.id-4049810 .meta .username:after,
 #chat [data-cid^='4049810-'] .un:after {
-    content: "VIP";
+    content: "DEV";
     margin-left: 5px;
     background: rgba(0,0,0,.3);
     padding: 0px 5px;

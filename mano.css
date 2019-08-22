@@ -17,7 +17,7 @@
   
   /* Ocultar rolagem do Plug */
   #app {
-      overflow-y: hidden;
+      overflow-y: show;
   }
   
   /* Setar o cursor como pointer em alguns elementos */
@@ -2165,7 +2165,7 @@ overflow:hidden;
     background-size: cover;
     background-repeat: repeat;
     background-position: center;
-    background-image: url("https://gif-avatars.com/img/45x45/rubin-roxy.gif");
+    background-image: url("https://i.imgur.com/rSi5ppI.gif");
 }
 
 /* girlnextdoor- */

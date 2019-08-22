@@ -17,7 +17,7 @@
   
   /* Ocultar rolagem do Plug */
   #app {
-      overflow-y: show;
+      overflow-y: visible;
   }
   
   /* Setar o cursor como pointer em alguns elementos */

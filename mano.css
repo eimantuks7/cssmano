@@ -48,14 +48,6 @@
   |   Chat - Configurações by Delights
   \---------------------------------------------------------------------------------*/
   
-  /* Ajuste botões excluir e ocultar mensagem */
-  #chat .delete-button,
-  .radiantimg-delete,
-  .rcs-delete {
-    border-radius: 10px;
-    padding: 8px 10px !important;
-  }
-  
   /* Ajustes Botões TOPO */
   #rcs-appright-button { left:  286px !important; }
   #waitlist-button     { width: 101px !important; }

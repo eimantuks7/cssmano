@@ -46,22 +46,22 @@
   @import url("https://themescript.github.io/plugins/plugins.css");
   @import url("https://raw.githubusercontent.com/eimantuks7/cssroominfo/master/roominfocss");
   
-  /* Animations */
-    /* > Defined animations here can be used with the animation declaration.
-         To keep things tidy, all additional animations defined above should
-         be under the "Opacity and effecrs" section below.
-       > Only define a new animation when a transition effect doesn't work, or
-         when it is easier than per-class transitions.
-    */
-    @keyframes fadein{
-      from{
-        opacity: 0;
-    }
-      to{
-        opacity: 1;
-    }
-    
-    }    
+/* Animations */
+  /* > Defined animations here can be used with the animation declaration.
+       To keep things tidy, all additional animations defined above should
+       be under the "Opacity and effecrs" section below.
+     > Only define a new animation when a transition effect doesn't work, or
+       when it is easier than per-class transitions.
+  */
+  @keyframes fadein{
+    from{
+      opacity: 0;
+  }
+    to{
+      opacity: 1;
+  }
+  
+  }
   
   /* Opacity and effects */
     /* > Not including background colour opacity; Declarations for semi-opaque

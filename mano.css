@@ -53,15 +53,15 @@
        > Only define a new animation when a transition effect doesn't work, or
          when it is easier than per-class transitions.
     */
-  @keyframes fadein{
-    from{
-      opacity: 0;
-  }
-    to{
-      opacity: 1;
-  }
-  
-  }
+    @keyframes fadein{
+      from{
+        opacity: 0;
+    }
+      to{
+        opacity: 1;
+    }
+    
+    }    
   
   /* Opacity and effects */
     /* > Not including background colour opacity; Declarations for semi-opaque

@@ -490,9 +490,9 @@
   #playlist-menu .title,
   .dropdown .level,
       /* Bot links */
-  #chat-messages [data-cid^="29698377"] A,
-  #chat-messages [data-cid^="29698377"] A{
-      color: rgb(180, 201, 222) !important;
+  #chat-messages [data-cid^="3605383"] A,
+  #chat-messages [data-cid^="3475278"] A{
+    color: rgb(180, 201, 222) !important;
   }     /* Non-important text colour */
   #chat .from.dj .un,
   #chat .from.staff .un,
@@ -586,7 +586,7 @@
   #history-panel .timestamp,
   #user-history .name,
   #user-history .timestamp{
-      font-size: 17px !Important;
+    font-size: 17px !Important;
   }
       /* Header */
   #room-bar span{
@@ -1478,7 +1478,7 @@
   #user-history .name,
   #user-history .timestamp{
     text-align: right !important;
-      top: 24px !Important;
+    top: 24px !Important;
   }
   #history-panel .timestamp {
     right: 2px !important;

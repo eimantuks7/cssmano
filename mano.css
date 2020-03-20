@@ -1,4 +1,4 @@
-/* plug.dj themescript made for Chillout Mixer
+/* plug.dj themescript made for Anoniminiai Alkohilikai [DEV: Delights]
 
    --- Information ---
    
@@ -15,7 +15,7 @@
    --- Credits and contact ---
 
    Primary style developer:
-   HEEBEEJEEBEES; bluufoxx[at]gmail[dot]com
+   HEEBEEJEEBEES; bluufoxx[at]gmail[dot]com; Delights
 
    Original concept, theme director and code host:
    Wizzikz; rihikz[at]gmail[dot]com
@@ -39,12 +39,12 @@
 
 /* Theme components */
   /* > Additional styles for plugins are handled by plugins.css */
-@import url("https://themescript.github.io/settings/loading.css");
-@import url("https://themescript.github.io/badges/badges.css");
-@import url("https://themescript.github.io/themes/cmix/usrlogos.css");
+@import url("https://raw.githubusercontent.com/eimantuks7/cssloading/master/cssloading");
+@import url("https://raw.githubusercontent.com/eimantuks7/cssbadges/master/cssbadges");
+@import url("https://raw.githubusercontent.com/eimantuks7/cssuserlogos/master/usrlogoscss");
 @import url("https://themescript.github.io/settings/settings.css");
 @import url("https://themescript.github.io/plugins/plugins.css");
-@import url("https://themescript.github.io/settings/roominfo.css");
+@import url("https://raw.githubusercontent.com/eimantuks7/cssroominfo/master/roominfocss");
 
 /* Animations */
   /* > Defined animations here can be used with the animation declaration.
@@ -953,7 +953,7 @@ div .user:hover .name span,
   /* Backgrounds and gradients */
     /* Room background */
 #room .room-background{
-  background-image: url(https://themescript.github.io/images/cmix_background.png) !important;
+  background-image: url(https://i.imgur.com/MKpr6q7.gif) !important;
 }
     /* Room logo */
 #room-settings,
@@ -963,7 +963,7 @@ div .user:hover .name span,
 #media-panel .row.selected:before,
 #media-panel .actions,
 #history-panel .row{
-  background-image: url("https://themescript.github.io/images/cmix_logo.png") !important;
+  background-image: url("https://i.imgur.com/uxEI1vC.png") !important;
   background-repeat: no-repeat  !important;
   background-position: center center !important;
   background-size: 500px 500px !important;

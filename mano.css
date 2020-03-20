@@ -1,4 +1,4 @@
-/* plug.dj themescript made for Chillout Mixer & Anoniminiai Alkoholikai
+/* plug.dj themescript made for Anoniminiai Alkoholikai [DEV: Delights]
 
    --- Information ---
    
@@ -15,10 +15,10 @@
    --- Credits and contact ---
 
    Primary style developer:
-   HEEBEEJEEBEES; bluufoxx[at]gmail[dot]com; Delights
+   HEEBEEJEEBEES; bluufoxx[at]gmail[dot]com
 
    Original concept, theme director and code host:
-   Wizzikz; rihikz[at]gmail[dot]com; Delights
+   Wizzikz; rihikz[at]gmail[dot]com
 
    Community host, community background and assorted UI images:
    Nighthawk; nite4wk[at]gmail[dot]com
@@ -46,13 +46,13 @@
   @import url("https://themescript.github.io/plugins/plugins.css");
   @import url("https://raw.githubusercontent.com/eimantuks7/cssroominfo/master/roominfocss");
   
-/* Animations */
-  /* > Defined animations here can be used with the animation declaration.
-       To keep things tidy, all additional animations defined above should
-       be under the "Opacity and effecrs" section below.
-     > Only define a new animation when a transition effect doesn't work, or
-       when it is easier than per-class transitions.
-  */
+  /* Animations */
+    /* > Defined animations here can be used with the animation declaration.
+         To keep things tidy, all additional animations defined above should
+         be under the "Opacity and effecrs" section below.
+       > Only define a new animation when a transition effect doesn't work, or
+         when it is easier than per-class transitions.
+    */
   @keyframes fadein{
     from{
       opacity: 0;

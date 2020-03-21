@@ -1,4 +1,4 @@
-/* plug.dj themescript made for Anoniminiai Alkohilikai [DEV: Delights] V1.0.0
+/* plug.dj themescript made for Anoniminiai Alkoholikai [DEV: Delights] V1.0.0
 
    --- Information ---
    
@@ -17,19 +17,7 @@
    Primary style developer:
    HEEBEEJEEBEES; bluufoxx[at]gmail[dot]com; Delights
 
-   Original concept, theme director and code host:
-   Wizzikz; rihikz[at]gmail[dot]com
-
-   Community host, community background and assorted UI images:
-   Nighthawk; nite4wk[at]gmail[dot]com
-
-   Chillout Mixer logo and assorted site images:
-   FunkyBrewster
-
-   Additional icons and style work:
-   EckerDecker
-
-   All other members of the chilloutmixer community who provided useful input on style development
+   All other members of the Anoniminiai Alkoholikai community who provided useful input on style development
 
    You. Yes, you! Keep on chillin' !
 
@@ -490,8 +478,8 @@ div .user.is-staff span,
 #playlist-menu .title,
 .dropdown .level,
     /* Bot links */
-#chat-messages [data-cid^="3605383"] A,
-#chat-messages [data-cid^="3475278"] A{
+#chat-messages [data-cid^="29698377"] A,
+#chat-messages [data-cid^="29698377"] A{
 	color: rgb(180, 201, 222) !important;
 }     /* Non-important text colour */
 #chat .from.dj .un,
@@ -566,8 +554,8 @@ div .user:hover .name span,
 #user-settings .account .right button:hover,
 #chat-messages .cm.system *,
     /* Bot text */
-#chat-messages [data-cid^="3605383"] .un,
-#chat-messages [data-cid^="3475278"] .un{
+#chat-messages [data-cid^="29698377"] .un,
+#chat-messages [data-cid^="29698377"] .un{
   color: rgb(255, 255, 255) !Important;
 }
 
@@ -843,8 +831,8 @@ div .user:hover .name span,
   background-position: -315px -166px !Important;
 }
       /* Bot staff icons */
-        /* ChilloutMixerBot */
-#chat-messages [data-cid^="3605383"] .icon.icon-chat-manager{
+        /* AnonAlk Bot */
+#chat-messages [data-cid^="29698377"] .icon.icon-chat-manager{
   background-position: -15px -90px !Important;
 }       /* Woots */
 #chat-messages [data-cid^="3475278"] .icon.icon-chat-bouncer{
@@ -1691,13 +1679,4 @@ div.pop-menu{
 #history-panel .row:hover .timestamp,
 #history-panel .divider{
   display: none !Important;
-}
-div#chat-button {
-  background: rgb(28, 60, 93) !important;
-}
-div#chat-header {
-  background: rgb(29, 69, 110) !important;
-}
-div#chat {
-  background: #1b4775 !important;
 }

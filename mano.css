@@ -1692,12 +1692,12 @@ div.pop-menu{
 #history-panel .divider{
   display: none !Important;
 }
+div#chat-button {
+  background: rgb(28, 60, 93) !important;
+}
 div#chat-header {
-  background: rgb(29, 69, 110);
+  background: rgb(29, 69, 110) !important;
 }
 div#chat {
-  background: #1b4775;
-}
-div#chat-button {
-  background: rgb(28, 60, 93);
+  background: #1b4775 !important;
 }
